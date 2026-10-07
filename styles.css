@@ -174,7 +174,7 @@ p:last-child{margin-bottom:0}
 /* ============================================================
    HERO
    ============================================================ */
-.hero{position:relative; padding:clamp(48px,7vw,86px) 0 0; overflow:hidden; background:var(--sand)}
+.hero{position:relative; padding:clamp(48px,7vw,86px) 0 clamp(36px,5vw,64px); overflow:hidden; background:var(--sand)}
 .hero__bg{
   position:absolute; inset:0;
   background:
@@ -223,7 +223,7 @@ p:last-child{margin-bottom:0}
 
 /* quick bar */
 .quickbar{
-  position:relative; list-style:none; margin:0 0 -42px; padding:0;
+  position:relative; list-style:none; margin:32px 0 0; padding:0;
   display:grid; grid-template-columns:repeat(4,1fr); gap:1px;
   background:var(--line); border-radius:var(--r); overflow:hidden;
   box-shadow:var(--shadow); z-index:2;
@@ -374,7 +374,7 @@ p:last-child{margin-bottom:0}
 }
 .hours__card--feature h3{color:#fff}
 .hours__card--feature dt{color:#fff}
-.hours__card--feature dd{color:#b6d1d6}
+.hours__card.hours__card--feature dd{color:#d7e9ec}
 .hours__card--feature > dl > div{border-color:var(--line-light)}
 .hours__card h3{
   margin-bottom:1em; font-size:1.1rem; letter-spacing:.06em; text-transform:uppercase;
@@ -548,7 +548,7 @@ a.contact__v:hover{color:var(--accent)}
   .hero__shot--a img{aspect-ratio:4/3; object-position:center 25%}
   .hero__shot--b{width:44%; left:auto; right:-4%; bottom:-10%}
 
-  .quickbar{grid-template-columns:repeat(2,1fr); margin-bottom:-34px}
+  .quickbar{grid-template-columns:repeat(2,1fr)}
 
   .band__grid{grid-template-columns:1fr}
   .cards--3{grid-template-columns:repeat(2,1fr)}
@@ -573,7 +573,7 @@ a.contact__v:hover{color:var(--accent)}
   .hero__points li{font-size:.85rem; padding:7px 14px 7px 11px}
   .hero__actions .btn{flex:1 1 100%}
   .hero__shot--b{display:none}
-  .quickbar{grid-template-columns:1fr; margin-bottom:-26px}
+  .quickbar{grid-template-columns:1fr}
   .quickbar li{padding:15px 18px}
   .cards--3{grid-template-columns:1fr}
   .conditions{grid-template-columns:1fr}
