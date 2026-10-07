@@ -145,7 +145,6 @@ p:last-child{margin-bottom:0}
   display:flex; align-items:center; justify-content:space-between; gap:24px;
   min-height:var(--header-h);
 }
-.brand img{width:clamp(170px,22vw,228px); height:auto}
 
 .nav{display:flex; align-items:center; gap:28px; margin-left:auto}
 .nav__list{display:flex; gap:26px; list-style:none; margin:0; padding:0}
@@ -590,3 +589,31 @@ a.contact__v:hover{color:var(--accent)}
   .footer__legal{padding-bottom:96px}
   .callfab{display:block}
 }
+
+/* ---------- brand lockup (2026 round logo) ---------- */
+.brand{flex:none; display:flex; align-items:center; gap:12px; color:var(--ink); text-decoration:none}
+.brand img{width:64px; height:64px}
+.brand__name{white-space:nowrap; font-family:var(--display); font-weight:600; font-size:1.15rem; line-height:1.1; color:var(--teal-900)}
+.brand__name small{display:block; font-family:var(--sans); font-weight:500; font-size:.72rem; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-soft); margin-top:3px}
+.footer__brand img{width:120px; height:120px}
+@media (max-width:420px){ .brand img{width:52px; height:52px} .brand__name{font-size:1rem} }
+
+/* ---------- open house banner ---------- */
+.openhouse{background:#fdf1e4; border-bottom:1px solid rgba(201,106,39,.25)}
+.openhouse__inner{display:flex; align-items:center; gap:20px; padding-top:14px; padding-bottom:14px; color:var(--ink); text-decoration:none}
+.openhouse__thumb{width:66px; height:auto; border-radius:6px; box-shadow:var(--shadow-sm); flex:none; transform:rotate(-3deg); transition:transform .2s ease}
+.openhouse__inner:hover .openhouse__thumb{transform:rotate(0) scale(1.04)}
+.openhouse__copy{display:flex; flex-direction:column; gap:2px; min-width:0}
+.openhouse__kicker{font-size:.78rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--accent-dk)}
+.openhouse__title{font-family:var(--display); font-size:1.15rem; color:var(--teal-900)}
+.openhouse__meta{font-size:.9rem; color:var(--ink-soft)}
+.openhouse__cta{margin-left:auto; flex:none}
+.openhouse__inner:focus-visible{outline:3px solid var(--accent); outline-offset:-3px}
+@media (max-width:720px){
+  .openhouse__inner{gap:14px}
+  .openhouse__thumb{width:52px}
+  .openhouse__cta{display:none}
+  .openhouse__title{font-size:1rem}
+  .openhouse__meta{font-size:.82rem}
+}
+@media (min-width:981px) and (max-width:1280px){ .brand__name{display:none} }
