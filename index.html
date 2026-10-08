@@ -511,6 +511,18 @@
         <form id="contactForm" method="POST" action="https://vision.leadrai.com/api/forms/6836675363c8a1cc4fbb14dc2a805402" novalidate>
           <input type="hidden" name="_form" value="Appointment request">
           <input type="hidden" name="_page" id="pageField" value="">
+
+          <!-- GoHighLevel sub-account: create/update the contact in this location,
+               stamp the Lead Source / Website Form custom fields and tag the lead. -->
+          <input type="hidden" name="_crm" value="gohighlevel">
+          <input type="hidden" name="_ghl_location_id" value="RuhZIUZfXqt16m1cqMHk">
+          <input type="hidden" name="_ghl_tags" value="website-lead">
+          <input type="hidden" name="_tags" value="website-lead">
+          <input type="hidden" name="Lead Source" value="Website">
+          <input type="hidden" name="Website Form" value="Appointment request">
+          <input type="hidden" name="First name" id="firstNameField" value="">
+          <input type="hidden" name="Last name" id="lastNameField" value="">
+
           <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
 
           <div class="field">
@@ -551,7 +563,7 @@
 
           <div class="field">
             <label for="f-concern">What&rsquo;s bothering you?</label>
-            <textarea id="f-concern" name="Primary concern" rows="4" placeholder="Neck pain, headaches, vertigo, sciatica&hellip;"></textarea>
+            <textarea id="f-concern" name="message" rows="4" placeholder="Neck pain, headaches, vertigo, sciatica&hellip;"></textarea>
           </div>
 
           <div class="field field--check">

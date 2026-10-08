@@ -98,14 +98,36 @@
   }
 
   /* ---------------------------------------------------------
-     4. Contact form — LeadrVision
+     4. Contact form — LeadrVision -> GoHighLevel
      --------------------------------------------------------- */
   var ENDPOINT = 'https://vision.leadrai.com/api/forms/6836675363c8a1cc4fbb14dc2a805402';
+
+  /* GoHighLevel sub-account the lead is created/updated in. */
+  var GHL_LOCATION_ID = 'RuhZIUZfXqt16m1cqMHk';
 
   var form = document.getElementById('contactForm');
   var success = document.getElementById('formSuccess');
   var pageField = document.getElementById('pageField');
   var submitBtn = document.getElementById('submitBtn');
+  var firstNameField = document.getElementById('firstNameField');
+  var lastNameField = document.getElementById('lastNameField');
+  var nameInput = form ? form.querySelector('[name="name"]') : null;
+
+  /* GoHighLevel stores first and last name separately, so split the single
+     full-name field. Without JS the backend still receives the full "name". */
+  function syncNameParts() {
+    if (!nameInput) return;
+    var parts = (nameInput.value || '').trim().split(/\s+/).filter(Boolean);
+    var first = parts.length ? parts.shift() : '';
+    if (firstNameField) firstNameField.value = first;
+    if (lastNameField) lastNameField.value = parts.join(' ');
+  }
+
+  if (nameInput) {
+    nameInput.addEventListener('input', syncNameParts);
+    nameInput.addEventListener('change', syncNameParts);
+    syncNameParts();
+  }
 
   /* Hidden _page field always carries the current URL so visitors
      are returned to the right page after a plain HTML submission. */
@@ -181,6 +203,8 @@
     });
 
     form.addEventListener('submit', function (e) {
+      syncNameParts();
+
       // Keep the plain POST path alive if fetch is unavailable.
       if (typeof window.fetch !== 'function') {
         if (!validate()) e.preventDefault();
@@ -201,6 +225,8 @@
         }
       });
       data._page = window.location.href;
+      data._crm = 'gohighlevel';
+      data._ghl_location_id = GHL_LOCATION_ID;
 
       var label = submitBtn ? submitBtn.textContent : '';
       if (submitBtn) {
@@ -220,6 +246,7 @@
         .then(function (json) {
           if (json && json.ok === false) throw new Error('Submission rejected');
           form.reset();
+          syncNameParts();
           if (pageField) pageField.value = window.location.href;
           form.hidden = true;
           showSuccess(true);
