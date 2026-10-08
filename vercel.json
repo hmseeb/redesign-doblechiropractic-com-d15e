@@ -4,6 +4,396 @@
       "source": "/admin",
       "destination": "https://vision.leadrai.com/site-admin/site-b901e6b0656768e0a047ecf7ff38439cfc3e",
       "permanent": false
+    },
+    {
+      "source": "/review-us",
+      "destination": "https://vision.leadrai.com/r/38O2h5WL8jZYekYQrRzcVSRXkH4twJZjvClAvF7w7DM",
+      "permanent": false
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/thank-you-form",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/location.htm",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/locationa2.htm",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/where.html",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/officehrs.htm",
+      "destination": "/#hours",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/us/",
+      "permanent": true
+    },
+    {
+      "source": "/who.html",
+      "destination": "/us/",
+      "permanent": true
+    },
+    {
+      "source": "/staff.html",
+      "destination": "/us/",
+      "permanent": true
+    },
+    {
+      "source": "/people.html",
+      "destination": "/us/",
+      "permanent": true
+    },
+    {
+      "source": "/history.html",
+      "destination": "/us/",
+      "permanent": true
+    },
+    {
+      "source": "/index.htm",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/site-map",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/events.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/knowledge.html",
+      "destination": "/patient-education/",
+      "permanent": true
+    },
+    {
+      "source": "/research.htm",
+      "destination": "/patient-education/",
+      "permanent": true
+    },
+    {
+      "source": "/performance.html",
+      "destination": "/athletes-improve-chiropractic-care/",
+      "permanent": true
+    },
+    {
+      "source": "/cost.html",
+      "destination": "/#special",
+      "permanent": true
+    },
+    {
+      "source": "/fees",
+      "destination": "/#special",
+      "permanent": true
+    },
+    {
+      "source": "/backpain.html",
+      "destination": "/back-pain/",
+      "permanent": true
+    },
+    {
+      "source": "/neckpain.html",
+      "destination": "/neck-pain/",
+      "permanent": true
+    },
+    {
+      "source": "/headaches.html",
+      "destination": "/headaches-migraines/",
+      "permanent": true
+    },
+    {
+      "source": "/migraines.html",
+      "destination": "/headaches-migraines/",
+      "permanent": true
+    },
+    {
+      "source": "/sciatica.html",
+      "destination": "/sciatica/",
+      "permanent": true
+    },
+    {
+      "source": "/legpain.html",
+      "destination": "/arm-leg-pain/",
+      "permanent": true
+    },
+    {
+      "source": "/shoulderproblems.html",
+      "destination": "/shoulder-pain/",
+      "permanent": true
+    },
+    {
+      "source": "/hippain.html",
+      "destination": "/back-pain/",
+      "permanent": true
+    },
+    {
+      "source": "/chiropractor/2014-10-25/a-chiropractors-approach-to-neck-pain",
+      "destination": "/a-chiropractors-approach-to-neck-pain/",
+      "permanent": true
+    },
+    {
+      "source": "/testimonials.htm",
+      "destination": "/testimonials/",
+      "permanent": true
+    },
+    {
+      "source": "/testimonials.html",
+      "destination": "/testimonials/",
+      "permanent": true
+    },
+    {
+      "source": "/testimonials/:name.html",
+      "destination": "/testimonials/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/page/:n",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/adjustments.html",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/palmer.html",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/palmermethod.html",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/innate.html",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/how.html",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/what.html",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/why.html",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/subluxation.html",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/palmerslaw.htm",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/palmerspecific.htm",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/misalign.htm",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/bodybalance.htm",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/bodyimbalance.htm",
+      "destination": "/methods/",
+      "permanent": true
+    },
+    {
+      "source": "/add.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/allergies.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/arthritis.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/asthma.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/colon.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/conditions.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/deafness.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/diabetes.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/eyeproblems.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/footproblems.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/hearingproblems.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/highbloodpressure.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/highbloodsugar.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/incontinence.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/insomnia.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/kidney.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/sinusitis.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/stomachdisorders.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/thyroiddisorders.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/weightproblems.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/canhelp.htm",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/disease.htm",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/review-us/",
+      "destination": "https://vision.leadrai.com/r/38O2h5WL8jZYekYQrRzcVSRXkH4twJZjvClAvF7w7DM",
+      "permanent": false
+    },
+    {
+      "source": "/contact-us/",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/contact/",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/thank-you-form/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about/",
+      "destination": "/us/",
+      "permanent": true
+    },
+    {
+      "source": "/site-map/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fees/",
+      "destination": "/#special",
+      "permanent": true
+    },
+    {
+      "source": "/chiropractor/2014-10-25/a-chiropractors-approach-to-neck-pain/",
+      "destination": "/a-chiropractors-approach-to-neck-pain/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/page/:n/",
+      "destination": "/blog/",
+      "permanent": true
     }
   ]
 }

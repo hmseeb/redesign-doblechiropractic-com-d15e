@@ -21,6 +21,9 @@ python3 -m http.server 8080
 | `styles.css` | Full design system (tokens, components, responsive breakpoints) |
 | `script.js` | Mobile nav, sticky header, scroll reveal, form validation + submission |
 | `favicon.svg` | Favicon |
+| `<slug>/index.html` | Inner pages (patient education, conditions, articles, policies) rebuilt verbatim from the previous WordPress site, 2026-10 |
+| `images/legacy/`, `files/` | Images and the intake PDF those pages use |
+| `vercel.json` | `/admin` redirect, plus 301s from every pre-redesign URL to its new page |
 
 ## Forms
 
