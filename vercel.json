@@ -394,6 +394,11 @@
       "source": "/blog/page/:n/",
       "destination": "/blog/",
       "permanent": true
+    },
+    {
+      "source": "/review",
+      "destination": "https://vision.leadrai.com/r/38O2h5WL8jZYekYQrRzcVSRXkH4twJZjvClAvF7w7DM",
+      "permanent": false
     }
   ]
 }
