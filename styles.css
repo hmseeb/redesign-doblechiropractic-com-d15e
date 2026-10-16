@@ -129,8 +129,8 @@ p:last-child{margin-bottom:0}
 .topbar__walkin{opacity:.85}
 .topbar__phone{color:#fff; font-weight:700; letter-spacing:.02em}
 .topbar__phone:hover{color:var(--accent)}
-.topbar__review{display:inline-flex; align-items:center; min-height:32px; padding:4px 14px; border-radius:999px; background:var(--accent); color:var(--teal-900); font-weight:700; white-space:nowrap}
-.topbar__review:hover{background:var(--accent-dk); color:var(--teal-900)}
+.topbar__review{display:inline-flex; align-items:center; min-height:32px; padding:4px 14px; border-radius:999px; background:var(--accent); color:#fff; font-weight:700; white-space:nowrap}
+.topbar__review:hover{background:var(--accent-dk); color:#fff}
 
 /* ============================================================
    HEADER
