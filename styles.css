@@ -416,6 +416,9 @@ a.contact__v:hover{color:var(--accent)}
 .directions h3{font-size:1.05rem; margin-bottom:.7em; font-family:var(--sans); letter-spacing:.04em; text-transform:uppercase}
 .directions ol{margin:0; padding-left:1.2em; display:grid; gap:9px}
 .directions li{font-size:.95rem; color:#c6dde1}
+.directions p{margin:0; font-size:.95rem; color:#c6dde1}
+.directions p a{color:#fff; text-decoration:underline}
+.directions p a:hover{color:var(--accent)}
 
 /* ---------- form ---------- */
 .formcard{
@@ -612,9 +615,9 @@ a.contact__v:hover{color:var(--accent)}
 .openhouse__cta{margin-left:auto; flex:none}
 .openhouse__inner:focus-visible{outline:3px solid var(--accent); outline-offset:-3px}
 @media (max-width:720px){
-  .openhouse__inner{gap:14px}
+  .openhouse__inner{gap:14px; flex-wrap:wrap}
   .openhouse__thumb{width:52px}
-  .openhouse__cta{display:none}
+  .openhouse__cta{margin-left:0}
   .openhouse__title{font-size:1rem}
   .openhouse__meta{font-size:.82rem}
 }
