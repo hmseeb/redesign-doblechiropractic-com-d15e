@@ -88,6 +88,13 @@ p:last-child{margin-bottom:0}
 }
 .eyebrow--light{color:#8fd0da}
 
+/* Larger section titles for Our Approach / Services / Conditions (~25% up, responsive) */
+#approach > .shell > .section__head > .eyebrow,
+#services > .shell > .section__head > .eyebrow,
+#conditions > .shell > .section__head > .eyebrow{
+  font-size:clamp(.96rem, .9rem + .3vw, .99rem);
+}
+
 /* ---------- buttons ---------- */
 .btn{
   display:inline-flex; align-items:center; justify-content:center; gap:.5em;
@@ -391,6 +398,7 @@ p:last-child{margin-bottom:0}
 .hours__card dl.dl--tight > div{padding:8px 0}
 .hours__card dt{margin:0; font-weight:600; font-size:.95rem}
 .hours__card dd{margin:0; text-align:right; font-size:.95rem; color:var(--ink-soft); font-variant-numeric:tabular-nums}
+.hours__walkin{margin:0; font-weight:600; font-size:.95rem; line-height:1.6}
 .hours__note{margin-top:16px; font-size:.9rem; color:var(--ink-soft)}
 
 /* ============================================================
@@ -414,7 +422,7 @@ a.contact__v:hover{color:var(--accent)}
   border-radius:var(--r); padding:26px 28px;
 }
 .directions h3{font-size:1.05rem; margin-bottom:.7em; font-family:var(--sans); letter-spacing:.04em; text-transform:uppercase}
-.directions ol{margin:0; padding-left:1.2em; display:grid; gap:9px}
+.directions ol{margin:0 0 14px; padding-left:1.4em; display:grid; gap:9px}
 .directions li{font-size:.95rem; color:#c6dde1}
 .directions p{margin:0; font-size:.95rem; color:#c6dde1}
 .directions p a{color:#fff; text-decoration:underline}
